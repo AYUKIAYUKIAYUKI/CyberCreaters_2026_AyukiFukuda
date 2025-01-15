@@ -1,0 +1,23 @@
+{
+	"TextureList": [
+		"Data\\TEXTURE\\title.png",
+		"Data\\TEXTURE\\start.png",
+		"Data\\TEXTURE\\result.png",
+		"Data\\TEXTURE\\shine.png",
+		"Data\\TEXTURE\\constellation0.png",
+		"Data\\TEXTURE\\constellation1.png",
+		"Data\\TEXTURE\\constellation2.png",
+		"Data\\TEXTURE\\constellation3.png",
+		"Data\\TEXTURE\\HUD\\map\\base.png",
+		"Data\\TEXTURE\\HUD\\map\\ring.png",
+		"Data\\TEXTURE\\HUD\\map\\symbol_player.png",
+		"Data\\TEXTURE\\HUD\\map\\symbol_item.png",
+		"Data\\TEXTURE\\HUD\\playergauge\\heart.png",
+		"Data\\TEXTURE\\gauge.png",
+		"Data\\TEXTURE\\HUD\\playergauge\\base.png",
+		"Data\\TEXTURE\\HUD\\bossgauge\\base.png",
+		"Data\\TEXTURE\\HUD\\bossgauge\\bar.png",
+		"Data\\TEXTURE\\HUD\\bossgauge\\back.png",
+		"Data\\TEXTURE\\popup.png"
+	]
+}

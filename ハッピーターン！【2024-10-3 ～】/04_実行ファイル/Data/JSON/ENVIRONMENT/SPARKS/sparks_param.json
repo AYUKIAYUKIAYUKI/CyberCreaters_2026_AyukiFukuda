@@ -1,0 +1,19 @@
+{
+	"AutoGenerateSpan": 30,
+	"AreaGenerateSpan": 20,
+	"FuryGenerateSpan": 10,
+	"Priority": 2,
+	"TextureType": 3,
+	"CorrectionCoef": 0.025,
+	"SizeTarget": [ 3.0, 3.0, 3.0 ],
+	"ColTarget": [ 1.0, 0.5, 0.25, 0.35 ],
+	"MaxDuration": 300,
+	"WaveCoef": 5.0,
+	"AdderY": 5.0,
+	"FuryCorrectionCoef": 0.05,
+	"FurySizeTarget": [ 2.0, 2.0, 2.0 ],
+	"FuryColTarget": [ 1.0, 0.0, 0.0, 1.0 ],
+	"FuryMaxDuration": 180,
+	"FuryWaveCoef": 30.0,
+	"FuryAdderY": 15.0
+}

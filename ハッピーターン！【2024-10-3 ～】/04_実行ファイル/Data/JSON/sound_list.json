@@ -1,0 +1,47 @@
+{
+  "FilePath": [
+    "Data\\BGM\\black.wav",
+    "Data\\BGM\\inst.wav",
+    "Data\\SE\\text.wav",
+    "Data\\SE\\dash.wav",
+    "Data\\SE\\slash.wav",
+    "Data\\SE\\Batk.wav",
+    "Data\\SE\\land.wav",
+    "Data\\SE\\damage.wav",
+    "Data\\SE\\Bdamage.wav",
+    "Data\\SE\\heal.wav",
+    "Data\\SE\\Eappear.wav",
+    "Data\\SE\\Iappear.wav",
+    "Data\\SE\\disappear.wav"
+  ],
+  "CountLoop": [
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Volume": [
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

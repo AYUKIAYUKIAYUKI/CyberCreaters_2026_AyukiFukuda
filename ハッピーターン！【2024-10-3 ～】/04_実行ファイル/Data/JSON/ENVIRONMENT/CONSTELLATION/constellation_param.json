@@ -1,0 +1,9 @@
+{
+	"GenerateSpan": 10,
+	"Priority": 1,
+	"CorrectCoef" : 0.025,
+	"SizeTarget": [ 6.5, 6.5, 6.5 ],
+	"ColTarget": [ 1.0, 1.0, 1.0, 0.5 ],
+	"MaxDuration": 30,
+	"SpreadOffset": 0.03
+}

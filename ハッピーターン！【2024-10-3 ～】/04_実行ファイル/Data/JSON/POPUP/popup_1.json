@@ -1,0 +1,12 @@
+{
+  "CorrectionCoef": 0.05,
+  "Size": [ 0.0, 0.0, 0.0 ],
+  "SizeTarget": [ 37.5, 25.0, 0.0 ],
+  "Rot": [ 0.0, 0.0, 0.0 ],
+  "RotTarget": [ 0.0, 0.0, 0.0 ],
+  "Pos": [ 0.0, 0.0, 0.0 ],
+  "PosTarget": [ 0.0, 50.0, -290.0 ],
+  "Col": [ 0.0, 0.0, 0.0, 0.0 ],
+  "ColTarget": [ 1.0, 1.0, 1.0, 0.6 ],
+  "TextMeshFile" : "Data\\JSON\\TEXTMESH\\text_1.json"
+}
