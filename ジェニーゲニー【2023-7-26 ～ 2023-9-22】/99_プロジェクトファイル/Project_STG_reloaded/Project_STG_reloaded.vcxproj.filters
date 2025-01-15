@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\mode">
+      <UniqueIdentifier>{de612753-3800-477a-80e5-d89505c8b390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\misc">
+      <UniqueIdentifier>{4ef2e84a-2557-443d-b5b1-b522c6330587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\title_attachment">
+      <UniqueIdentifier>{9b737ba3-33cd-4147-b434-fc86ef64a5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\game_attachment">
+      <UniqueIdentifier>{62b2d2bb-833d-4e69-9cf6-d6ecb5359964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\nonuse">
+      <UniqueIdentifier>{85e8ac23-581e-4eae-b4d7-f6128a96297a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\misc">
+      <UniqueIdentifier>{d3a85c36-5dbf-41a8-ac8a-2828c768fecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode">
+      <UniqueIdentifier>{26d01907-0b3a-42fc-a5cf-4a0272bf2244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\game_attachment">
+      <UniqueIdentifier>{e72cc81d-6a18-4c85-90b2-c57a66be9aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\title_attachment">
+      <UniqueIdentifier>{49702483-5296-4b9b-a793-024781dd8725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\menu_attachment">
+      <UniqueIdentifier>{f909cd99-f7db-463e-baba-40e1e2a2c79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\menu_attachment">
+      <UniqueIdentifier>{0175a307-017e-4820-9eaa-1d7d39915efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\result_attachment">
+      <UniqueIdentifier>{77776f43-c424-4cf0-8642-2b34fd594556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\result_attachment">
+      <UniqueIdentifier>{c6baf9eb-a1d9-406b-abbd-dcf39999c6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\pause_attachment">
+      <UniqueIdentifier>{ec057b55-667a-4cb9-a2c7-3b18b16a1322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\pause_attachment">
+      <UniqueIdentifier>{237b17d3-b111-40ff-9c6f-9daccea32480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\tutorial_attachment">
+      <UniqueIdentifier>{70cad6b7-2ee4-4a18-a0f3-02c9aa3da4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\tutorial_attachment">
+      <UniqueIdentifier>{0e6a104f-4355-4113-97fc-00325287a721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\nonuse">
+      <UniqueIdentifier>{9b6dab94-1854-4d33-91b4-45ecd182ffd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mode\ranking_attachment">
+      <UniqueIdentifier>{50d4dfbb-a81b-4eab-989b-616b72b1a51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mode\ranking_attachment">
+      <UniqueIdentifier>{00f9b800-30a6-4e52-9159-54e0b95a2419}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\effect_bullet.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\bg.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\enemy.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\effect_spawn.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\bullet.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\fg.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\guage.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\guagebar.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\item.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\life.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\particle.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\player.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\score.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\timer.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\window_bullet.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\wreath.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\particle_titlelogo.h">
+      <Filter>ヘッダー ファイル\mode\title_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\input.h">
+      <Filter>ヘッダー ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\main.h">
+      <Filter>ヘッダー ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\sound.h">
+      <Filter>ヘッダー ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\title.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\result.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\menu.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\game.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\effect_comet.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\style.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\effect_score.h">
+      <Filter>ヘッダー ファイル\nonuse</Filter>
+    </ClInclude>
+    <ClInclude Include="header\window_score.h">
+      <Filter>ヘッダー ファイル\nonuse</Filter>
+    </ClInclude>
+    <ClInclude Include="header\window_timer.h">
+      <Filter>ヘッダー ファイル\nonuse</Filter>
+    </ClInclude>
+    <ClInclude Include="header\block.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\slideblock.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\breakblock.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\particle_block.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\enemy_glide.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\enemy_slide.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\enemy_spiral.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\leaves.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\bush.h">
+      <Filter>ヘッダー ファイル\mode\game_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\square.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\select_mode.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\cursorh.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\grade.h">
+      <Filter>ヘッダー ファイル\mode\result_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\score_result.h">
+      <Filter>ヘッダー ファイル\mode\result_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\fade.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pigeones.h">
+      <Filter>ヘッダー ファイル\nonuse</Filter>
+    </ClInclude>
+    <ClInclude Include="header\line_titleh.h">
+      <Filter>ヘッダー ファイル\mode\title_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="source\text_mode.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tutorial_cursor.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tutorial_select.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tutorial_window.h">
+      <Filter>ヘッダー ファイル\mode\menu_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pause.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pause_window.h">
+      <Filter>ヘッダー ファイル\mode\pause_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pause_select.h">
+      <Filter>ヘッダー ファイル\mode\pause_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pause_cursor.h">
+      <Filter>ヘッダー ファイル\mode\pause_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tutorial.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tutorial_fade.h">
+      <Filter>ヘッダー ファイル\mode\tutorial_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking.h">
+      <Filter>ヘッダー ファイル\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking_black.h">
+      <Filter>ヘッダー ファイル\mode\ranking_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking_fade.h">
+      <Filter>ヘッダー ファイル\mode\ranking_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking_score.h">
+      <Filter>ヘッダー ファイル\mode\ranking_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking_th.h">
+      <Filter>ヘッダー ファイル\mode\ranking_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking_back.h">
+      <Filter>ヘッダー ファイル\mode\ranking_attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="header\pause_fade.h">
+      <Filter>ヘッダー ファイル\mode\pause_attachment</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\input.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sound.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\title.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\result.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\menu.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particle_titlelogo.cpp">
+      <Filter>ソース ファイル\mode\title_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bg.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bullet.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\effect_bullet.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fg.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\item.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\timer.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\guage.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemy.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\score.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\guagebar.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\life.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particle.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\effect_spawn.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window_bullet.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wreath.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\effect_comet.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\style.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\effect_score.cpp">
+      <Filter>ソース ファイル\nonuse</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window_score.cpp">
+      <Filter>ソース ファイル\nonuse</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window_timer.cpp">
+      <Filter>ソース ファイル\nonuse</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\block.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\slideblock.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\breakblock.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particle_block.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemy_glide.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemy_slide.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemy_spiral.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\leaves.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bush.cpp">
+      <Filter>ソース ファイル\mode\game_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\square.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\select_mode.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cursor.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\grade.cpp">
+      <Filter>ソース ファイル\mode\result_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\score_result.cpp">
+      <Filter>ソース ファイル\mode\result_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fade_menu.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pigeons.cpp">
+      <Filter>ソース ファイル\nonuse</Filter>
+    </ClCompile>
+    <ClCompile Include="source\line_title.cpp">
+      <Filter>ソース ファイル\mode\title_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\text_mode.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tutorial_cursor.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tutorial_window.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tutorial_select.cpp">
+      <Filter>ソース ファイル\mode\menu_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pause.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pause_window.cpp">
+      <Filter>ソース ファイル\mode\pause_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pause_cursor.cpp">
+      <Filter>ソース ファイル\mode\pause_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pause_select.cpp">
+      <Filter>ソース ファイル\mode\pause_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tutorial.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tutorial_fade.cpp">
+      <Filter>ソース ファイル\mode\tutorial_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking.cpp">
+      <Filter>ソース ファイル\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking_th.cpp">
+      <Filter>ソース ファイル\mode\ranking_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking_score.cpp">
+      <Filter>ソース ファイル\mode\ranking_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking_black.cpp">
+      <Filter>ソース ファイル\mode\ranking_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking_fade.cpp">
+      <Filter>ソース ファイル\mode\ranking_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking_back.cpp">
+      <Filter>ソース ファイル\mode\ranking_attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pause_fade.cpp">
+      <Filter>ソース ファイル\mode\pause_attachment</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
