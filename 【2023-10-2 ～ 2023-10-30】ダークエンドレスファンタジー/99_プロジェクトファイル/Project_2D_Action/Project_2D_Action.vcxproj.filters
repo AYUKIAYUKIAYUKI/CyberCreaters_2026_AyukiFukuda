@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\misc">
+      <UniqueIdentifier>{09d0faa8-4ce3-4fdc-a33d-06a350bf62d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game">
+      <UniqueIdentifier>{f568aa88-decf-4e68-ad31-1b390f4d2eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\title">
+      <UniqueIdentifier>{128786c9-2f7d-4b4b-8066-6f0506056678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\menu">
+      <UniqueIdentifier>{d262282f-e844-4207-81be-b1a3bec0f441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tutorial">
+      <UniqueIdentifier>{636b6380-2f90-4129-95ac-ca6a2e01d558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ranking">
+      <UniqueIdentifier>{5944ed38-4993-44ea-b39d-7b6c3c8feb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\result">
+      <UniqueIdentifier>{6f43b4b3-f76c-4416-b83e-dd01d316016f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\title.h">
+      <Filter>ソース ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="header\bg.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\camera.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\effect_jump.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\player.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\stage.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\input.h">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\main.h">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\fade.h">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\sound.h">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header\logo_title.h">
+      <Filter>ソース ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="header\menu.h">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="header\game.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\window_menu.h">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="header\result.h">
+      <Filter>ソース ファイル\result</Filter>
+    </ClInclude>
+    <ClInclude Include="header\enemy.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\tower.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\window_result.h">
+      <Filter>ソース ファイル\result</Filter>
+    </ClInclude>
+    <ClInclude Include="header\gage_life.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\attack_box.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\particle.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\gauge_tower.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\cursor_title.h">
+      <Filter>ソース ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="header\text_title.h">
+      <Filter>ソース ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="header\window_game.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\text_game.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\cursor_game.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\attack_box_enemy.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\score.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\timer.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\back.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\text_result.h">
+      <Filter>ソース ファイル\result</Filter>
+    </ClInclude>
+    <ClInclude Include="header\press_any.h">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="header\colon.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ranking.h">
+      <Filter>ソース ファイル\ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="header\text_ranking.h">
+      <Filter>ソース ファイル\ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="header\score_ranking.h">
+      <Filter>ソース ファイル\ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="header\bomb.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\skill.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\title.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="source\logo_title.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bg.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\camera.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\effect_jump.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stage.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\input.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fade.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sound.cpp">
+      <Filter>ソース ファイル\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\menu.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window_menu.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\result.cpp">
+      <Filter>ソース ファイル\result</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enemy.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tower.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window_result.cpp">
+      <Filter>ソース ファイル\result</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gage_life.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\attack_box.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particle.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gauge_tower.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cursor_title.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="source\text_title.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cursor_game.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\text_game.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window_game.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\attack_box_enemy.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\timer.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\score.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\back.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\text_result.cpp">
+      <Filter>ソース ファイル\result</Filter>
+    </ClCompile>
+    <ClCompile Include="source\press_any.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\colon.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ranking.cpp">
+      <Filter>ソース ファイル\ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\text_ranking.cpp">
+      <Filter>ソース ファイル\ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\score_ranking.cpp">
+      <Filter>ソース ファイル\ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bomb.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="source\skill.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
