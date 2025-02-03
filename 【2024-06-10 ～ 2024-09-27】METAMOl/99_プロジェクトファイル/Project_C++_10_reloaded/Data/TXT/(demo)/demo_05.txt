@@ -1,0 +1,5 @@
+X:-15.0,Y:20.0,Z:0.0,type:start,
+X:15.0,Y:20.0,Z:0.0,type:goal,
+X:-15.0,Y:0.0,Z:0.0,type:block,
+X:15.0,Y:0.0,Z:0.0,type:block,
+X:15.0,Y:20.0,Z:0.0,type:archieve,
