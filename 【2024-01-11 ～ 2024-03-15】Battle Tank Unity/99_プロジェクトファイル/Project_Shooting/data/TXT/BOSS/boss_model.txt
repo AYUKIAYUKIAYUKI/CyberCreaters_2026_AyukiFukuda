@@ -1,0 +1,281 @@
+//------------------------------------------------------------------------------
+//
+// これらのデータはすべてのボスに共有されます
+//
+//------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+AMOUNT_MODEL = 28
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+
+/*---【中ボス】---*/
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/00_body1.x		# [0]胸
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/02_body2.x		# [1]腹
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/01_head.x			# [2]頭
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/03_rightarm1.x	# [3]右上腕
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/04_rightarm2.x	# [4]右腕
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/05_righthand.x	# [5]右手
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/06_leftarm1.x		# [6]左上腕
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/07_leftarm2.x		# [7]左腕
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/08_lefthand.x		# [8]左手
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/09_rightleg1.x	# [9]右腿
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/10_rightleg2.x	# [10]右脛
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/11_rightfoot.x	# [11]右足
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/12_leftleg1.x		# [12]左腿
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/13_leftleg2.x		# [13]左脛
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss001/Boss_human/14_leftfoot.x		# [14]左足
+
+/*---【大ボス】---*/
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/00_body.x			# [15]胴体
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/015_legR.x			# [16]右足１
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/015_legR.x			# [17]右足２
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/015_legR.x			# [18]右足３
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/015_legR.x			# [19]右足４
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/035_legL.x			# [20]左足１
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/035_legL.x			# [21]左足２
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/035_legL.x			# [22]左足３
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/035_legL.x			# [23]左足４
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/05_armUR.x			# [24]右腕
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/06_armDR.x			# [25]右手
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/07_armUL.x			# [26]左腕
+MODEL_FILENAME = data/MODEL/BOSS/Enemy_Boss000/Boss_crub/08_armDL.x			# [27]左手
+
+
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+CHARACTERSET
+
+/*---【中ボス】---*/
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 0					# 胸
+		PARENT = -1					# (親)NULL
+		POS = 0.0 97.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 2					# 腹
+		PARENT = 0					# (親)胸
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 1					# 頭
+		PARENT = 0					# (親)胸
+		POS = 0.0 43.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 3					# 右上腕
+		PARENT = 0					# (親)胸
+		POS = -28.5 30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 4					# 右腕
+		PARENT = 3					# (親)右上腕
+		POS = -25.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 5					# 右手
+		PARENT = 4					# (親)右上腕
+		POS = -45.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 6					# 左上腕
+		PARENT = 0					# (親)胸
+		POS = 28.5 30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 7					# 左腕
+		PARENT = 6					# (親)左上腕
+		POS = 25.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 8					# 左手
+		PARENT = 7					# (親)左腕
+		POS = 45.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 9					# 右腿
+		PARENT = 1					# (親)腹
+		POS = -12.0 -15.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 10					# 右脛
+		PARENT = 9					# (親)右腿
+		POS = 0.0 -30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 11					# 右足
+		PARENT = 10					# (親)右脛
+		POS = 0.0 -37.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 12					# 左腿
+		PARENT = 1					# (親)腹
+		POS = 12.0 -15.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 13					# 左脛
+		PARENT = 12					# (親)左腿
+		POS = 0.0 -30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# ロボット
+		INDEX = 14					# 左足
+		PARENT = 13					# (親)左脛
+		POS = 0.0 -37.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	/*---【大ボス】---*/
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 15					# 胴体
+		PARENT = -1					# (親)NULL
+		POS = 0.0 30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 16					# 右腕１
+		PARENT = 15					# (親)NULL
+		POS = 90.0 12.0 45.0
+		ROT = 0.0 -0.5 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 17					# 右腕２
+		PARENT = 15					# (親)腰
+		POS = 90.0 15.0 20.0
+		ROT = 0.0 -0.2 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 18					# 右腕３
+		PARENT = 15					# (親)体
+		POS = 90.0 15.0 -5.0
+		ROT = 0.0 0.3 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 19					# 右腕４
+		PARENT = 15					# (親)右上腕
+		POS = 90.0 22.0 -30.0
+		ROT = 0.0 0.7 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 20					# 左腕１
+		PARENT = 15					# (親)右前腕
+		POS = -90.0 12.0 45.0
+		ROT = 0.0 0.5 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 21					# 左腕２
+		PARENT = 15					# (親)体
+		POS = -90.0 15.0 20.0
+		ROT = 0.0 0.2 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 22					# 左腕３
+		PARENT = 15					# (親)左上腕
+		POS = -90.0 15.0 -5.0
+		ROT = 0.0 -0.3 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 23					# 左腕４
+		PARENT = 15					# (親)左前腕
+		POS = -90.0 22.0 -30.0
+		ROT = 0.0 -0.7 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 24					# 右腕
+		PARENT = 15					# (親)体
+		POS = 80.0 35.0 -55.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 25					# 右手
+		PARENT = 24					# (親)右腿
+		POS = 0.0 80.0 -57.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 26					# 左腕
+		PARENT = 15					# (親)右脛
+		POS = -80.0 35.0 -55.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 大ボス
+		INDEX = 27					# 左手
+		PARENT = 26					# (親)体
+		POS = 0.0 80.0 -57.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+END_CHARACTERSET

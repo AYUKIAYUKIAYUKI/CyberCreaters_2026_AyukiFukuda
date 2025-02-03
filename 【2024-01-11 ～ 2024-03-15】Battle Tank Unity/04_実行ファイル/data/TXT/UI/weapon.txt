@@ -1,0 +1,395 @@
+//------------------------------------------------------------------------------
+//
+// これらのデータは個別のUIに設定されます
+//
+//------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# パラメータ情報：エクスポートされたものを以下に貼り付け
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# セット[ 1 ]
+#------------------------------------------------------------------------------
+PARAMSET
+	SET = 1
+	TEXTYPE = 0
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 1
+	TEXTYPE = 1
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 1
+	TEXTYPE = 2
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 1
+	TEXTYPE = 3
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+#------------------------------------------------------------------------------
+# セット[ 2 ]
+#------------------------------------------------------------------------------
+PARAMSET
+	SET = 2
+	TEXTYPE = 0
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 1
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 2
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 3
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 0
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 1
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 2
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 2
+	TEXTYPE = 3
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+#------------------------------------------------------------------------------
+# セット[ 3 ]
+#------------------------------------------------------------------------------
+PARAMSET
+	SET = 3
+	TEXTYPE = 0
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 1
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 2
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 3
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 0
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 1
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 2
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 3
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 0
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 1
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 2
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 3
+	TEXTYPE = 3
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+#------------------------------------------------------------------------------
+# セット[ 4 ]
+#------------------------------------------------------------------------------
+PARAMSET
+	SET = 4
+	TEXTYPE = 0
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 1
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 2
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 3
+	POS = 100.0 445.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 0
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 1
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 2
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 3
+	POS = 1060.0 445.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 0
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 1
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 2
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 3
+	POS = 100.0 985.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 0
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 1
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 2
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 90.0 90.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	SET = 4
+	TEXTYPE = 3
+	POS = 1060.0 985.0 0.0
+	ROT = 0.0 0.0 -0.3
+	SPAN = 55.0 35.0
+	COL = 1.0 1.0 1.0 1.0
+END_PARAMSET
+
+END_SCRIPT

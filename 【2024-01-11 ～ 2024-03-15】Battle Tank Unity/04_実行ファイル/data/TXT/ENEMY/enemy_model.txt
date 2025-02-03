@@ -1,0 +1,399 @@
+//------------------------------------------------------------------------------
+//
+// これらのデータはすべてのエネミーに共有されます
+//
+//------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+AMOUNT_MODEL = 41
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+
+/*---【蜻蛉】---*/
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy003\\00_body.x		# [0] // 蜻蛉の体
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy003\\01_wingUR.x		# [1] // 蜻蛉の右上
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy003\\02_wingDR.x		# [2] // 蜻蛉の右下
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy003\\03_wingUL.x		# [3] // 蜻蛉の左上
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy003\\04_wingDL.x		# [4] // 蜻蛉の左下
+
+/*---【蟻】---*/
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\body.x					# [5]  // 胸
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\hip.x					# [6]  // 腹
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\head.x					# [7]  // 頭
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftBasalFront.x			# [8]  // 左基節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftBasalMiddle.x		# [9]  // 左基節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftBasalBack.x			# [10] // 左基節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightBasalBack.x			# [11] // 右基節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightBasalMiddle.x		# [12] // 右基節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightBasalFront.x		# [13] // 右基節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftThighboneFront.x		# [14] // 左腿節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftThighboneMiddle.x	# [15] // 左腿節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftThighboneBack.x		# [16] // 左腿節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightThighboneBack.x		# [17] // 右腿節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightThighboneMiddle.x	# [18] // 右腿節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightThighboneFront.x	# [19] // 右腿節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftTibiaFront.x			# [20] // 左脛節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftTibiaMiddle.x		# [21] // 左脛節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\LeftTibiaBack.x			# [22] // 左脛節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightTibiaBack.x			# [23] // 右脛節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightTibiaMiddle.x		# [24] // 右脛節
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy001\\RightTibiaFront.x		# [25] // 右脛節
+
+/*---【蠍】---*/
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\00_body.x		# [26]胴体
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/01_taleU.x		# [27]尻尾付け根
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/02_taleM.x		# [28]尻尾中間
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/03_taleD.x		# [29]尻尾ケツ
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/04_spike.x		# [30]尻尾の針
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/05_armUR.x		# [31]右腕
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/06_armDR.x		# [32]右手
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/07_armUL.x		# [33]左腕
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/08_armDL.x		# [34]左手
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/09_legs.x		# [35]足ども
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/09_legs.x		# [36]足ども
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/09_legs.x		# [37]ありがとうございます。
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/09_legs.x		# [38]足ども
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/09_legs.x		# [39]足ども
+MODEL_FILENAME = data\\MODEL\\ENEMY\\enemy002\\/09_legs.x		# [40]足ども
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+CHARACTERSET
+
+/*---【蜻蛉】---*/
+	PARTSSET
+		STYLE = 0					# 蜻蛉
+		INDEX = 0					# 体
+		PARENT = -1					# (親)NULL
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# 蜻蛉
+		INDEX = 1					# 右上
+		PARENT = 0					# 体
+		POS = 0.0 17.0 10.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# 蜻蛉
+		INDEX = 2					# 右下
+		PARENT = 0					# 体
+		POS = 0.0 15.0 17.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+		PARTSSET
+		STYLE = 0					# 蜻蛉
+		INDEX = 3					# 左上
+		PARENT = 0					# 体
+		POS = -5.0 17.0 10.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 0					# 蜻蛉
+		INDEX = 4					# 左下
+		PARENT = 0					# 体
+		POS = -5.0 16.0 17.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+/*---【蟻】---*/
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 5
+		PARENT = -1					# (親)NULL
+		POS = 0.0 20.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 6
+		PARENT = 5					# (親)NULL
+		POS = 0.0 -10.0 20.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 7
+		PARENT = 5					# (親)体
+		POS = 0.0 0.0 -12.5
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 8
+		PARENT = 5					# (親)体
+		POS = 3.0 3.0 -12.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 9
+		PARENT = 5					# (親)右上腕
+		POS = 7.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 10
+		PARENT = 5					# (親)右前腕
+		POS = 3.0 -3.0 10.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 11
+		PARENT = 5					# (親)体
+		POS = -3.0 -3.0 10.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 12
+		PARENT = 5					# (親)左上腕
+		POS = -7.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 13
+		PARENT = 5					# (親)左前腕
+		POS = -3.0 3.0 -12.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 14
+		PARENT = 8					# (親)体
+		POS = 15.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 15
+		PARENT = 9					# (親)右腿
+		POS = 15.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 16
+		PARENT = 10					# (親)右脛
+		POS = 15.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 17
+		PARENT = 11					# (親)体
+		POS = -15.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 18
+		PARENT = 12					# (親)左腿
+		POS = -15.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 19
+		PARENT = 13					# (親)左脛
+		POS = -15.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 20
+		PARENT = 14					# (親)左脛
+		POS = 20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 21
+		PARENT = 15					# (親)左脛
+		POS = 20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 22
+		PARENT = 16					# (親)左脛
+		POS = 20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 23
+		PARENT = 17					# (親)左脛
+		POS = -20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 24
+		PARENT = 18					# (親)左脛
+		POS = -20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 1					# 蟻
+		INDEX = 25
+		PARENT = 19					# (親)左脛
+		POS = -20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	/*---【蠍】---*/
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 0					# 胴体
+		PARENT = -1					# (親)NULL
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 1					# 右腕１
+		PARENT = 26					# (親)NULL
+		POS = 0.0 12.0 27.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 2					# 右腕２
+		PARENT = 27					# (親)腰
+		POS = 0.0 10.0 9.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 3					# 右腕３
+		PARENT = 28					# (親)体
+		POS = 0.0 12.0 6.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 4					# 右腕４
+		PARENT = 29					# (親)右上腕
+		POS = 0.0 15.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 5					# 左腕１
+		PARENT = 26					# (親)右前腕
+		POS = 10.0 5.0 -10.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 6					# 左腕２
+		PARENT = 31					# (親)体
+		POS = 11.0 0.0 -18.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 7					# 左腕３
+		PARENT = 26					# (親)左上腕
+		POS = -10.0 5.0 -10.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 8					# 左腕４
+		PARENT = 33					# (親)左前腕
+		POS = -11.0 0.0 -18.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 9					# 右腕
+		PARENT = 26					# (親)体
+		POS = 10.0 5.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 10					# 右手
+		PARENT = 26					# (親)右腿
+		POS = 10.0 5.0 5.0
+		ROT = 0.0 -0.7 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 11					# 左腕
+		PARENT = 26					# (親)右脛
+		POS = 10.0 5.0 -5.0
+		ROT = 0.0 0.5 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 12					# 左手
+		PARENT = 26					# (親)体
+		POS = -10.0 5.0 0.0
+		ROT = 0.0 3.14 0.0
+	END_PARTSSET
+
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 13					# 左手
+		PARENT = 26					# (親)体
+		POS = -10.0 5.0 -5.0
+		ROT = 0.0 2.54 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		STYLE = 2					# 蠍
+		INDEX = 14					# 左手
+		PARENT = 26					# (親)体
+		POS = -10.0 5.0 5.0
+		ROT = 0.0 3.84 0.0
+	END_PARTSSET
+	
+END_CHARACTERSET

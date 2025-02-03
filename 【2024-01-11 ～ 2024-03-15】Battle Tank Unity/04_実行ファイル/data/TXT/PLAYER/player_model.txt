@@ -1,0 +1,131 @@
+//------------------------------------------------------------------------------
+//
+// これらのデータはすべてのプレイヤーに共有されます
+//
+//------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+AMOUNT_MODEL = 10
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data\\MODEL\\PLAYER\\player_tank.x		# [0]	// 土台
+MODEL_FILENAME = data\\MODEL\\PLAYER\\00_player.x		# [1]	// ユニコーン
+MODEL_FILENAME = data\\MODEL\\PLAYER\\01_player.x		# [2]	// 犬
+MODEL_FILENAME = data\\MODEL\\PLAYER\\02_player.x		# [3]	// パンダ
+MODEL_FILENAME = data\\MODEL\\PLAYER\\03_player.x		# [4]	// サメ
+MODEL_FILENAME = data\\MODEL\\ITEM\\gun.x				# [5]	// 銃
+MODEL_FILENAME = data\\MODEL\\ITEM\\rpg.x				# [6]	// RPG
+MODEL_FILENAME = data\\MODEL\\ITEM\\gatling.x			# [7]	// ガトリング
+MODEL_FILENAME = data\\MODEL\\ITEM\\shotgun.x			# [8]	// 散弾銃
+MODEL_FILENAME = data\\MODEL\\PLAYER\\grave.x			# [9]	// 墓
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+CHARACTERSET
+
+/*- [ 0 ] : 土台 -*/
+	PARTSSET
+		STYLE = 99					# UNI
+		PARENT = -1					# (親)NULL
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+/*- [ 1 ] : ユニコーン -*/
+	PARTSSET
+		STYLE = 0					# 0
+		PARENT = 0					# (親)土台
+		POS = 0.0 10.0 0.0
+		ROT = 0.0 3.14159 0.0
+	END_PARTSSET
+
+/*- [ 2 ] : 犬 -*/
+	PARTSSET
+		STYLE = 1					# 1
+		PARENT = 0					# (親)土台
+		POS = 0.0 10.0 0.0
+		ROT = 0.0 3.14159 0.0
+	END_PARTSSET
+
+/*- [ 3 ] : パンダ -*/
+	PARTSSET
+		STYLE = 2					# 2
+		PARENT = 0					# (親)土台
+		POS = 0.0 10.0 0.0
+		ROT = 0.0 3.14159 0.0
+	END_PARTSSET
+	
+/*- [ 4 ] : サメ -*/
+	PARTSSET
+		STYLE = 3					# 3
+		PARENT = 0					# (親)土台4
+		POS = 0.0 10.0 0.0
+		ROT = 0.0 3.14159 0.0
+	END_PARTSSET
+	
+/*- [ 5 ] : 銃 -*/
+	PARTSSET
+		STYLE = 99					# UNI
+		WEAPON = 0					# トンプソン
+		PARENT = 99					# (親)UNI
+		POS = -5.0 15.0 -27.5
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+/*- [ 6 ] : RPG -*/
+	PARTSSET
+		STYLE = 99					# UNI
+		WEAPON = 1					# RPG
+		PARENT = 99					# (親)UNI
+		POS = -9.0 17.5 -32.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	/*- [ 7 ] : ガトリング -*/
+	PARTSSET
+		STYLE = 99					# UNI
+		WEAPON = 2					# ガトリング
+		PARENT = 99					# (親)UNI
+		POS = -13.0 14.0 -16.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	/*- [ 8 ] : 散弾銃 -*/
+	PARTSSET
+		STYLE = 99					# UNI
+		WEAPON = 3					# 散弾銃
+		PARENT = 99					# (親)UNI
+		POS = -8.0 22.0 -28.5
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	/*- [ 9 ] : 墓 -*/
+	PARTSSET
+		STYLE = 99					# UNI
+		PARENT = -1					# (親)NULL
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 3.14159 0.0
+	END_PARTSSET
+	
+#------------------------------------------------------------------------------
+# 攻撃位置のオフセット
+#------------------------------------------------------------------------------
+
+/*- トンプソン -*/
+	POS = 0.0 12.5 -25.0
+
+/*- RPG -*/
+	POS = 0.0 14.0 -50.0
+	
+/*- ガトリング -*/
+	POS = 0.0 12.5 -40.0
+	
+/*- 散弾銃 -*/
+	POS = 0.0 10.0 -20.0
+	
+END_CHARACTERSET

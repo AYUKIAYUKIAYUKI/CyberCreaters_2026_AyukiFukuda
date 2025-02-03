@@ -1,0 +1,106 @@
+//------------------------------------------------------------------------------
+//
+// これらのデータは個別のUIに設定されます
+//
+//------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# パラメータ情報：エクスポートされたものを以下に貼り付け
+#------------------------------------------------------------------------------
+PARAMSET
+	TEXTYPE = 0
+	POS = 1750.0 70.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 160.0 55.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 1
+	POS = 1715.0 65.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 85.0 25.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 2
+	POS = 690.0 70.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 210.0 58.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 3
+	POS = 660.0 70.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 98.0 28.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 4
+	POS = 960.0 540.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 350.0 250.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 5
+	POS = 960.0 540.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 200.0 135.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 6
+	POS = 960.0 540.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 200.0 70.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 7
+	POS = 960.0 540.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 200.0 70.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 8
+	POS = 170.0 70.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 160.0 55.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 9
+	POS = 1230.0 70.0 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 210.0 58.0
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 10
+	POS = 1162.5 71.5 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 80.0 22.5
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+PARAMSET
+	TEXTYPE = 11
+	POS = 1315.0 71.5 0.0
+	ROT = 0.0 0.0 0.0
+	SPAN = 7.5 22.5
+	COL = 0.0 0.0 0.0 0.0
+END_PARAMSET
+
+END_SCRIPT
