@@ -1,0 +1,15 @@
+data/model/yujiro/00_bodyD.x	
+data/model/yujiro/001_bodyU.x	
+data/model/yujiro/100_h.x	
+data/model/yujiro/03_armUL.x	
+data/model/yujiro/04_armDL.x	
+data/model/yujiro/05_handL.x	
+data/model/yujiro/06_armUR.x	
+data/model/yujiro/07_armDR.x	
+data/model/yujiro/08_handR.x	
+data/model/yujiro/09_legUL.x	
+data/model/yujiro/10_legDL.x	
+data/model/yujiro/11_footL.x	
+data/model/yujiro/12_legUR.x	
+data/model/yujiro/13_legDR.x	
+data/model/yujiro/14_footR.x	

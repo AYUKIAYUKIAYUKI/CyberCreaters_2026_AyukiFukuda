@@ -1,0 +1,16 @@
+data/model/roach/body.x
+data/model/roach/head.x
+data/model/roach/wingL.x
+data/model/roach/wingR.x
+data/model/roach/1-1.x
+data/model/roach/1-2.x
+data/model/roach/2-1.x
+data/model/roach/2-2.x
+data/model/roach/3-1.x
+data/model/roach/3-2.x
+data/model/roach/4-1.x
+data/model/roach/4-2.x
+data/model/roach/5-1.x
+data/model/roach/5-2.x
+data/model/roach/6-1.x
+data/model/roach/6-2.x
