@@ -1,8 +1,8 @@
 ﻿{
-	"Text": "先に進めない…？\n#\n#戻って道を確認してみよう",
+	"Text": "遊んでくれてありがとう！\n#\n#また挑戦してね！",
 	"TextSpeed": 5,
-	"TextDelay": -45,
-	"InitTextDelay": -70,
+	"TextDelay": 45,
+	"InitTextDelay": -20,
 	"Timer": -1,
 	"TextSize": [ 1375.0, 800.0 ],
 	"MeshSize": [ 0.0, 0.0, 0.0 ],

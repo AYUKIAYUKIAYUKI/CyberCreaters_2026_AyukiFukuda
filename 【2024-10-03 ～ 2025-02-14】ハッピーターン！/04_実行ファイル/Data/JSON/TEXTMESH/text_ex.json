@@ -3,6 +3,7 @@
 	"TextSpeed": 5,
 	"TextDelay": -30,
 	"InitTextDelay": -70,
+	"Timer": -1,
 	"TextSize": [ 1375.0, 800.0 ],
 	"MeshSize": [ 0.0, 0.0, 0.0 ],
 	"Rot": [ 0.0, 0.0, 0.0 ],
